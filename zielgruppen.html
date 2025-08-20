@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zielgruppen-Avatare – W. Ulrich GmbH | Inside Sales Manager</title>
+  <style>
+    :root{
+      --bg:#0f172a;           /* Slate-900 */
+      --panel:#111827;        /* Gray-900 */
+      --muted:#94a3b8;        /* Slate-400 */
+      --text:#e5e7eb;         /* Gray-200 */
+      --brand:#22d3ee;        /* Cyan-400 */
+      --brand-2:#f59e0b;      /* Amber-400 */
+      --ok:#34d399;           /* Green-400 */
+      --warn:#fbbf24;         /* Amber-400 */
+      --shadow:0 10px 25px rgba(0,0,0,.25);
+      --radius:18px;
+    }
+    body{margin:0;background:var(--bg);color:var(--text);
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans"}
+    #zielgruppen-avatare{
+      background:linear-gradient(180deg,#0b1224, #0f172a 30%, #0b1224 100%);
+      padding: clamp(20px, 4vw, 48px);
+    }
+    .zg-wrap{max-width:1150px;margin:0 auto}
+    .zg-head{display:grid;gap:10px;justify-items:center;text-align:center;margin-bottom:28px}
+    .zg-kicker{color:var(--brand);letter-spacing:.08em;font-weight:700;font-size:.8rem;text-transform:uppercase}
+    .zg-title{font-size:clamp(1.6rem,2.4vw,2.2rem);line-height:1.2;margin:0}
+    .zg-sub{color:var(--muted);max-width:920px}
+    .zg-grid{display:grid;gap:18px;grid-template-columns:repeat(12,1fr)}
+    .zg-card{
+      grid-column: span 12;
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.06);
+      border-radius:var(--radius); box-shadow:var(--shadow);
+      overflow:hidden; position:relative
+    }
+    @media (min-width:720px){ .zg-card{grid-column: span 6} }
+    .zg-card__bar{height:6px;background:linear-gradient(90deg,var(--brand),var(--brand-2))}
+    .zg-card__in{padding:18px 18px 16px 18px}
+    .zg-row{display:grid;gap:14px;grid-template-columns:64px 1fr;align-items:center;margin-bottom:6px}
+    .zg-ico{
+      width:56px;height:56px;border-radius:14px;display:grid;place-items:center;
+      background: radial-gradient(120% 120% at 30% 20%, rgba(34,211,238,.25), rgba(245,158,11,.18));
+      border:1px solid rgba(255,255,255,.08)
+    }
+    .zg-ico svg{width:32px;height:32px;color:#c7d2fe}
+    .zg-h{margin:0;font-size:1.05rem}
+    .zg-tag{display:inline-block;margin-top:4px;padding:2px 8px;border-radius:999px;
+      color:#0b1224;background:linear-gradient(90deg,var(--brand),var(--ok));font-weight:700;font-size:.72rem}
+    .zg-small{color:var(--muted);font-size:.92rem}
+    .zg-sec{display:grid;gap:10px;margin-top:10px}
+    .zg-sec h4{margin:0;font-size:.95rem;color:#cbd5e1}
+    .zg-list{margin:0;padding-left:18px;color:#cbd5e1}
+    .zg-list li{margin:6px 0}
+    .zg-callouts{display:grid;gap:10px}
+    .zg-chip{display:inline-grid;grid-auto-flow:column;gap:8px;align-items:center;
+      padding:8px 10px;border-radius:12px;background:rgba(148,163,184,.08);border:1px solid rgba(148,163,184,.18)}
+    .zg-examples{display:grid;gap:8px}
+    .zg-quote{
+      background:rgba(34,211,238,.08);border:1px dashed rgba(34,211,238,.35);
+      padding:10px 12px;border-radius:12px;font-size:.95rem
+    }
+    .zg-footer{
+      margin-top:28px;padding:16px;border-radius:var(--radius);
+      background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02));
+      border:1px solid rgba(255,255,255,.06)
+    }
+    .zg-footgrid{display:grid;gap:16px}
+    @media (min-width:840px){ .zg-footgrid{grid-template-columns:1.3fr 1fr} }
+    .zg-badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .zg-badge{padding:6px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06)}
+    .visually-hidden{position:absolute!important;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px);white-space:nowrap}
+  </style>
+</head>
+<body>
+<section id="zielgruppen-avatare" aria-labelledby="zg-title">
+  <div class="zg-wrap">
+    <header class="zg-head">
+      <div class="zg-kicker">W. Ulrich GmbH · Rohstoffe für Kosmetik, Pharma, Food & Technik</div>
+      <h2 id="zg-title" class="zg-title">Zielgruppen‑Avatare für den Inside Sales Manager</h2>
+      <p class="zg-sub">Kurzprofile zentraler Ansprechpartner in der DACH‑Region – inklusive Herausforderungen, Motivation, passender Ansprache, drei Gesprächseinstiegen und Kontaktwegen. Fokus: telefonische Betreuung und Akquise, Produktpositionierung, Preisstrategie und Vertriebsaktionen für hochwertige Rohstoffe.</p>
+    </header>
+
+    <div class="zg-grid">
+      <!-- Avatar 1 -->
+      <article class="zg-card" aria-labelledby="a1">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="Kosmetik Einkauf">
+              <!-- Shopping Bag -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M6 9h12l-1 10a2 2 0 0 1-2 2H9a2 2 0 0 1-2-2L6 9Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M9 9V7a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a1" class="zg-h">Einkaufsleiter eines Naturkosmetik‑Herstellers</h3>
+              <span class="zg-tag">B2B | Kosmetik (Skin/Hair)</span>
+              <p class="zg-small">Verantwortet Rohstoffportfolio, Lieferanten, Audits und Preisgestaltung für Natur‑ und Clean‑Beauty‑Linien.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>Preisdruck bei Bio‑Qualitäten, volatile Märkte</li>
+              <li>Strenge Zertifizierungen (z. B. COSMOS, NATRUE) & Nachverfolgbarkeit</li>
+              <li>Kurzfristige Produktlaunches mit Marketing‑Terminen</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Was motiviert ihn?</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Zuverlässige Verfügbarkeit & Planbarkeit</div>
+              <div class="zg-chip">Zertifizierte, nachhaltige Rohstoffe</div>
+              <div class="zg-chip">Transparente Herkunft & Dokumente</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Wie spreche ich ihn an?</h4>
+            <p class="zg-small">Sachlich und lösungsorientiert; Zertifikate, Lieferfähigkeit, Preisstaffeln und Anwendungsdaten klar darstellen.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Für Ihre neue Anti‑Aging‑Linie habe ich zwei Bio‑Öle mit COSMOS‑Zertifikat – beide ab Lager verfügbar.“</div>
+              <div class="zg-quote">„Wir liefern vollständige Spezifikationen inkl. Sicherheitsdatenblatt und Rückverfolgbarkeit bis zum Ursprung.“</div>
+              <div class="zg-quote">„Ab 500 kg greift eine Preisstaffel, die Ihren Deckungsbeitrag stabilisiert – darf ich kurz rechnen?“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">Telefon & E‑Mail, LinkedIn; Fachmessen wie in‑cosmetics; vormittags 9–11 Uhr.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Avatar 2 -->
+      <article class="zg-card" aria-labelledby="a2">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="F&E Detergenzien">
+              <!-- Flask/Chemistry -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M9 3v5l-4 7a4 4 0 0 0 3.5 6h7A4 4 0 0 0 19 15l-4-7V3" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 13h8" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a2" class="zg-h">Leiter F&E eines Reinigungsmittel‑Herstellers</h3>
+              <span class="zg-tag">B2B | Technik & ökologische Waschmittel</span>
+              <p class="zg-small">Sucht funktionale Tenside, Lösungsvermittler und Additive für nachhaltige Formulierungen.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>Balance aus Performance, Nachhaltigkeit und Preis</li>
+              <li>Regulatorische Vorgaben (z. B. REACH) & Sicherheitsbewertungen</li>
+              <li>Schnelle Bemusterung und Anwendungssupport</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Motivation</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Technische Beratung & Applikationsdaten</div>
+              <div class="zg-chip">Innovative, biobasierte Rohstoffe</div>
+              <div class="zg-chip">Kalkulierbare Lieferketten</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Ansprache</h4>
+            <p class="zg-small">Technisch präzise; Konzentrationen, Testdaten, Muster und Scale‑up‑Mengen aktiv anbieten.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Das neue nichtionische Tensid erreicht 12 % höhere Schmutzlöseleistung – Laborberichte sende ich mit.“</div>
+              <div class="zg-quote">„Muster (1 kg/5 kg) gehen heute raus; für Pilotchargen reserviere ich 200 kg ab nächster Woche.“</div>
+              <div class="zg-quote">„Die Formulierung erfüllt REACH‑Vorgaben; Expositionsszenarien sind vorbereitet.“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">E‑Mail mit Datenblättern, Teams‑Call, Fachkongresse; gute Zeitpunkte: nach Labor‑Reviews, mittwochs 10–12 Uhr.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Avatar 3 -->
+      <article class="zg-card" aria-labelledby="a3">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="Pharma Produktmanagement">
+              <!-- Capsule/Pill -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="8" width="8" height="8" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="13" y="8" width="8" height="8" rx="4" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M7 12h10" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a3" class="zg-h">Produktmanager eines Generika‑Herstellers (OTC)</h3>
+              <span class="zg-tag">B2B | Pharma</span>
+              <p class="zg-small">Steuert Sourcing, Qualität und Lifecycle; hohe Anforderungen an Compliance und Dokumentation.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>GMP‑/GDP‑Konformität, Audits und Änderungsmanagement</li>
+              <li>Preis‑ und Liefersicherheit unter Kostendruck</li>
+              <li>Strikte Timelines vor Listungen & Einführungen</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Motivation</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Zertifikate (z. B. CEP, CoA) verfügbar</div>
+              <div class="zg-chip">Langfristige Lieferzusagen</div>
+              <div class="zg-chip">Schnelle Reaktion & feste Ansprechpartner</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Ansprache</h4>
+            <p class="zg-small">Vertrauensbildend, normenkonform; Dokumente proaktiv senden, Qualität & Risiken klar managen.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Die Spezifikation inkl. CoA und Änderungs­historie liegt bei – Freigabe ist sofort möglich.“</div>
+              <div class="zg-quote">„Für Ihr OTC‑Projekt reserviere ich 2 t Jahresmenge mit Lieferplan pro Quartal.“</div>
+              <div class="zg-quote">„Wir haben Audit‑Unterlagen vorbereitet; gerne stimmen wir das Site‑Visit‑Fenster ab.“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">Telefon, E‑Mail, Supplier‑Portale; Zeitfenster: vor Audit‑Terminen & Q4/Q1 Budgetphase.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Avatar 4 -->
+      <article class="zg-card" aria-labelledby="a4">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="Lebensmittel Einkauf">
+              <!-- Leaf/Food -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M4 14c6 0 10-6 16-6 0 8-6 12-12 12-2.5 0-4-1.5-4-3.5Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 18c0-4 2-8 6-10" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a4" class="zg-h">Einkäufer eines Bio‑Lebensmittelproduzenten</h3>
+              <span class="zg-tag">B2B | Food (Clean Label)</span>
+              <p class="zg-small">Beschafft funktionale Zutaten & Zusatzstoffe für Marken mit Bio‑ und Clean‑Label‑Anspruch.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>Strenge Qualitäts‑ & Sicherheitsprüfungen</li>
+              <li>Beschaffungsspitzen vor Saison & Promotions</li>
+              <li>Preisabsicherung trotz Ernteschwankungen</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Motivation</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Bio‑Zertifikate & Analysen</div>
+              <div class="zg-chip">Verlässliche Lieferfenster</div>
+              <div class="zg-chip">Kalkulierbare Konditionen</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Ansprache</h4>
+            <p class="zg-small">Praxisnah und sicherheitsorientiert; Prüfdokumente, Allergenstatus und Rückverfolgbarkeit im Fokus.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Die Zutaten sind Bio‑zertifiziert; Analysenzertifikate und Allergenstatus habe ich angehängt.“</div>
+              <div class="zg-quote">„Für Ihre Aktionswochen kann ich 8 Wochen vorher fix liefern – inklusive Sicherheitsbestand.“</div>
+              <div class="zg-quote">„Wir bieten Preisbindung über drei Monate – möchten Sie die Staffel sehen?“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">E‑Mail mit Spezifikationen, Telefon, BioFach; beste Zeiten: 8:30–10:30 Uhr.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Avatar 5 -->
+      <article class="zg-card" aria-labelledby="a5">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="Distribution/Großhandel">
+              <!-- Boxes/Distribution -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="7" width="7" height="6" rx="1.2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="14" y="7" width="7" height="6" rx="1.2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="8" y="15" width="8" height="5" rx="1.2" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a5" class="zg-h">Einkaufsleiter eines Chemie‑Distributors</h3>
+              <span class="zg-tag">B2B | Handel & Distribution</span>
+              <p class="zg-small">Optimiert Einkauf, Lager & Marge für ein breites Rohstoffportfolio in der DACH‑Region.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>Volatile Preise & Währungsrisiken</li>
+              <li>Bestandsmanagement und Mindesthaltbarkeiten</li>
+              <li>Bedarfsspitzen der Kunden kurzfristig bedienen</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Motivation</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Skalierbare Bezugsquellen</div>
+              <div class="zg-chip">Mengenrabatte & Rahmenverträge</div>
+              <div class="zg-chip">Schnelle Verfügbarkeit ab Lager</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Ansprache</h4>
+            <p class="zg-small">Wirtschaftlich & verlässlich; Konditionen, Lieferpläne und SLA klar und knapp anbieten.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Mit einem 12‑Monats‑Rahmenvertrag sichern Sie Preis und Menge – inklusive Quartals‑Abrufen.“</div>
+              <div class="zg-quote">„Wir halten 3 t Sicherheitsbestand – Abruf innerhalb von 72 Stunden möglich.“</div>
+              <div class="zg-quote">„Ihre A‑Artikel bündeln wir zu besseren Staffelpreisen; ich sende die Simulation.“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">Telefonakquise, E‑Mail‑Angebote, XING/LinkedIn; gute Zeiten: Monatsanfang & vor Quartalsabschluss.</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- Avatar 6 -->
+      <article class="zg-card" aria-labelledby="a6">
+        <div class="zg-card__bar"></div>
+        <div class="zg-card__in">
+          <div class="zg-row">
+            <div class="zg-ico" aria-hidden="true" title="Start‑up/D2C">
+              <!-- Rocket/Startup -->
+              <svg viewBox="0 0 24 24" fill="none">
+                <path d="M12 2l2 4-4 4 1 3-3-1-4 4 4-10L12 2Z" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="15.5" cy="6.5" r="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <div>
+              <h3 id="a6" class="zg-h">Gründer eines D2C‑Naturkosmetik‑Start‑ups</h3>
+              <span class="zg-tag">B2B | Indie‑Brand</span>
+              <p class="zg-small">Baut schnell Formulierungen & Lieferketten auf, limitiertes Budget, hohe Marketing‑Geschwindigkeit.</p>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Herausforderungen</h4>
+            <ul class="zg-list">
+              <li>Kurze Time‑to‑Market & kleine Startmengen</li>
+              <li>Fehlende interne QS‑Ressourcen</li>
+              <li>Kassenschlager finden ohne Risiko</li>
+            </ul>
+          </div>
+          <div class="zg-sec">
+            <h4>Motivation</h4>
+            <div class="zg-callouts">
+              <div class="zg-chip">Kleine Gebinde & Skalierbarkeit</div>
+              <div class="zg-chip">Formulierungs‑ & Kennzeichnungs­hilfe</div>
+              <div class="zg-chip">Schnelle Bemusterung</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Ansprache</h4>
+            <p class="zg-small">Pragmatisch und ermutigend; Starter‑Pakete, Mindestmengen, Checklisten und schnelle Lieferzeiten betonen.</p>
+          </div>
+          <div class="zg-sec">
+            <h4>3 Beispielsätze</h4>
+            <div class="zg-examples">
+              <div class="zg-quote">„Für Ihre erste Charge liefern wir 25–50 kg je Rohstoff – später skalieren wir ohne Preisbruch.“</div>
+              <div class="zg-quote">„Sie erhalten ein Starter‑Set mit Sicherheitsdaten, INCI‑Angaben und Musterrezepturen.“</div>
+              <div class="zg-quote">„Wenn Sie mir den Launch‑Termin nennen, plane ich Rückwärts die Lieferfenster ein.“</div>
+            </div>
+          </div>
+          <div class="zg-sec">
+            <h4>Kontaktwege</h4>
+            <p class="zg-small">Instagram/LinkedIn‑Inbound, E‑Mail, Telefon; gute Zeiten: spätnachmittags 15–17 Uhr.</p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Kontakt & Akquise -->
+    <footer class="zg-footer" aria-labelledby="zg-akquise">
+      <h3 id="zg-akquise" class="zg-h">Kontakt‑ & Akquise‑Hinweise</h3>
+      <div class="zg-footgrid">
+        <div>
+          <h4>Beste Kanäle</h4>
+          <div class="zg-badges">
+            <span class="zg-badge">Direktansprache (Telefon/E‑Mail)</span>
+            <span class="zg-badge">LinkedIn & Branchen‑Gruppen</span>
+            <span class="zg-badge">Fachmessen: in‑cosmetics, CPhI, BioFach</span>
+            <span class="zg-badge">Webinare & Musteraktionen</span>
+            <span class="zg-badge">Distributoren‑Netzwerk</span>
+          </div>
+        </div>
+        <div>
+          <h4>Gute Zeitpunkte</h4>
+          <ul class="zg-list">
+            <li>Vor Produktlaunches & Promotions (Spezifikationsphase)</li>
+            <li>Q4/Q1: Budget‑ & Preisrunden, Jahresgespräche</li>
+            <li>Vor Audits/Reg‑Prüfungen (hohe Dokumenten‑Nachfrage)</li>
+            <li>Nach Marktpreissprüngen (Bereitschaft zu Rahmenverträgen)</li>
+          </ul>
+        </div>
+      </div>
+      
+    </footer>
+
+    <span class="visually-hidden">Ende der Zielgruppen‑Avatare</span>
+  </div>
+</section>
+</body>
+<footer>
+  &copy; <span id="yr"></span> Martin Kiessling – Bewerbung
+</footer>
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</html>

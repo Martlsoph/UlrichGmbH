@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- PAGE_TITLE -->
+  <title>SWOT & PESTEL – Unternehmensanalyse</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --muted: #94a3b8;
+      --text: #e5e7eb;
+      --brand: #22d3ee;
+      --brand-2: #a78bfa;
+      --ok: #34d399;
+      --warn: #fbbf24;
+      --shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+      --radius: 18px;
+    }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #0b1224, #0f172a 30%, #0b1224 100%);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+      color: var(--text);
+    }
+    .zg-wrap {
+      max-width: 1150px;
+      margin: 0 auto;
+      padding: clamp(20px, 4vw, 48px);
+    }
+    .zg-head {
+      display: grid;
+      gap: 10px;
+      justify-items: center;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+    .zg-kicker {
+      color: var(--brand);
+      letter-spacing: 0.08em;
+      font-weight: 700;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+    .zg-title {
+      font-size: clamp(1.6rem, 2.4vw, 2.2rem);
+      line-height: 1.2;
+      margin: 0;
+    }
+    .zg-sub {
+      color: var(--muted);
+      max-width: 820px;
+    }
+    .zg-grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(12, 1fr);
+    }
+    .zg-card {
+      grid-column: span 12;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.02));
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+    @media (min-width: 720px) {
+      .zg-card { grid-column: span 6; }
+    }
+    .zg-card__bar { height: 6px; background: linear-gradient(90deg, var(--brand), var(--brand-2)); }
+    .zg-card__in { padding: 18px; }
+    .zg-row {
+      display: grid; gap: 14px;
+      grid-template-columns: 64px 1fr;
+      align-items: center; margin-bottom: 6px;
+    }
+    .zg-ico {
+      width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center;
+      background: radial-gradient(120% 120% at 30% 20%, rgba(34, 211, 238, 0.25), rgba(167, 139, 250, 0.18));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .zg-ico svg { width: 32px; height: 32px; stroke: var(--text); }
+    .zg-h { margin: 0; font-size: 1.05rem; }
+    .zg-tag {
+      display: inline-block; margin-top: 4px; padding: 2px 8px; border-radius: 999px;
+      color: #0b1224; background: linear-gradient(90deg, var(--brand), var(--ok)); font-weight: 700; font-size: 0.72rem;
+    }
+    .zg-small { color: var(--muted); font-size: 0.92rem; }
+    .zg-sec { display: grid; gap: 10px; margin-top: 10px; }
+    .zg-sec h4 { margin: 0; font-size: 0.95rem; color: #cbd5e1; }
+    .zg-list { margin: 0; padding-left: 18px; color: #cbd5e1; }
+    .zg-list li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <section id="strategie" aria-labelledby="strategie-title">
+    <div class="zg-wrap">
+      <header class="zg-head">
+        <div class="zg-kicker"><!-- KICKER -->Rohstoffhandel – Kosmetik · Food · Pharma · Technik<!-- /KICKER --></div>
+        <h2 id="strategie-title" class="zg-title"><!-- TITLE -->SWOT‑ & PESTEL‑Analyse für W. Ulrich GmbH<!-- /TITLE --></h2>
+        <p class="zg-sub"><!-- COMPANY_BRIEF -->Die W. Ulrich GmbH ist ein familiengeführter Rohstoffdistributor aus Eresing (gegründet 1932) mit Fokus auf Kosmetik‑, Lebensmittel‑, Pharma‑ und technische Industrien. Besonderheit ist die ISO‑9001‑basierte Qualitätssicherung sowie die eigene Öko‑Marke „Ulrich natürlich“ für Wasch‑ und Reinigungsmittel.<!-- /COMPANY_BRIEF --></p>
+      </header>
+
+      <div class="zg-grid">
+        <!-- SWOT -->
+		<!-- COMPANY_BRIEF -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+
+        <article class="zg-card" aria-labelledby="swot">
+          <div class="zg-card__bar"></div>
+          <div class="zg-card__in">
+            <div class="zg-row">
+              <div class="zg-ico">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M3 12h18M12 3v18M4.5 4.5l15 15M19.5 4.5l-15 15" stroke-width="1.4" />
+                </svg>
+              </div>
+              <div>
+                <h3 id="swot" class="zg-h">SWOT‑Analyse</h3>
+                <span class="zg-tag">Innen‑ & Außenperspektive</span>
+                <p class="zg-small"><!-- SWOT_DESC -->Bewertung eines spezialisierten B2B‑Distributors mit eigener Öko‑Marke; Basis sind öffentlich verfügbare Angaben (Stand: Aug 2025).<!-- /SWOT_DESC --></p>
+              </div>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Stärken</h4>
+              <ul class="zg-list" id="swot-strengths"><!-- SWOT_STRENGTHS -->
+                <li>Über 90 Jahre Marktpräsenz (seit 1932) und klare Ausrichtung auf Kosmetik, Lebensmittel, Technik und Pharma.</li>
+                <li>Breites Portfolio inkl. Fokusprodukten (ätherische Öle, Citrate, Gerbstoffe, natürliche Öle/Fette/Wachse, Säuren/Derivate, Verdickungsmittel).</li>
+                <li>ISO‑9001:2015‑Zertifizierung und Bio‑Zertifizierung – etablierte Qualitäts‑ und Prozesssicherheit.</li>
+                <li>Eigene, etablierte Öko‑Marke „Ulrich natürlich“ (B2C/Private‑Label) als Differenzierungsmerkmal.</li>
+                <li>Internationale Beschaffungs‑ und Absatzbeziehungen (Europa/Übersee) sowie langjährige Herstellerpartnerschaften.</li>
+                <li>Familiengeführte Struktur mit kurzen Entscheidungswegen und hoher Kundennähe.</li>
+                <li>Eigene Entwicklung/Spezialkomponenten (u. a. Lackindustrie) und ausgewählte Eigenfertigung.</li>
+              <!-- /SWOT_STRENGTHS -->
+			  <!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+</ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Schwächen</h4>
+              <ul class="zg-list" id="swot-weaknesses"><!-- SWOT_WEAKNESSES -->
+                <li>Abhängigkeit von Vorlieferanten, Ernten und globalen Frachtraten im Importgeschäft.</li>
+                <li>Begrenzte Skaleneffekte gegenüber großen, multinationalen Distributoren.</li>
+                <li>Markenbekanntheit stark auf „Ulrich natürlich“ fokussiert; B2B‑Kernmarke im Endkundenmarkt wenig sichtbar.</li>
+                <li>Hoher Compliance‑ und Dokumentationsaufwand (REACH, CLP, Kosmetik‑/Lebensmittelrecht).</li>
+                <li>Standort‑ und Ressourcenbündelung in Eresing/DACH; internationale Präsenz primär über Partner.</li>
+                <li>Teils Commodity‑getriebenes Sortiment → Preisdruck und begrenzte Differenzierung.</li>
+              <!-- /SWOT_WEAKNESSES --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Chancen</h4>
+              <ul class="zg-list" id="swot-opportunities"><!-- SWOT_OPPORTUNITIES -->
+                <li>Wachstum bei natürlichen, veganen und biobasierten Inhaltsstoffen (Clean‑Beauty, „Free‑from“).</li>
+                <li>Ausbau von Private‑/White‑Label‑Geschäften und neuen Kanälen (Unverpackt, E‑Commerce).</li>
+                <li>Erweiterung von Zertifizierungen/Standards (z. B. ISO 14001, COSMOS/Ecocert, RSPO) zur Differenzierung.</li>
+                <li>Digitalisierung von Vertrieb & Service (CRM, Inside Sales, Self‑Service‑Portale, strukturierte Produktdaten).</li>
+                <li>Strategische Lieferantenexklusivitäten in Nischenrohstoffen und Near‑/Friend‑Shoring‑Quellen.</li>
+                <li>Kooperationen mit Marken/Start‑ups in Naturkosmetik und nachhaltiger Haushaltsreinigung.</li>
+              <!-- /SWOT_OPPORTUNITIES --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Risiken</h4>
+              <ul class="zg-list" id="swot-threats"><!-- SWOT_THREATS -->
+                <li>Volatilität bei Rohstoffpreisen, Energie und Logistik sowie mögliche Lieferengpässe.</li>
+                <li>Regulatorische Verschärfungen (REACH‑Revision, Mikroplastik‑Restriktionen, Green‑Claims‑Regeln).</li>
+                <li>Intensiver Wettbewerb durch globale Distributoren sowie Direktvertrieb seitens Herstellern.</li>
+                <li>Währungsrisiken (Import) und Konjunkturabschwünge in Konsumgütermärkten.</li>
+                <li>Reputations‑ und Haftungsrisiken bei Nachhaltigkeitsaussagen und Produktsicherheit.</li>
+                <li>Substitutionsrisiken durch synthetische oder alternativ gewonnene Rohstoffe.</li>
+              <!-- /SWOT_THREATS --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. --></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- PESTEL -->
+		<!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+        <article class="zg-card" aria-labelledby="pestel">
+          <div class="zg-card__bar"></div>
+          <div class="zg-card__in">
+            <div class="zg-row">
+              <div class="zg-ico">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" stroke-width="1.4" />
+                </svg>
+              </div>
+              <div>
+                <h3 id="pestel" class="zg-h">PESTEL‑Analyse</h3>
+                <span class="zg-tag">Makrofaktoren</span>
+                <p class="zg-small"><!-- PESTEL_DESC -->Makrotreiber und Rahmenbedingungen für den Rohstoffhandel in DACH/EU mit Bezug zu Kosmetik, Lebensmittel, Technik und Pharma.<!-- /PESTEL_DESC --></p>
+              </div>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Politisch</h4>
+              <ul class="zg-list" id="pestel-political"><!-- PESTEL_POLITICAL --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+                <li>EU‑Chemikalienstrategie sowie REACH‑/CLP‑Novellen beeinflussen Zulassungen, Kennzeichnung und Sicherheitsdaten.</li>
+                <li>Handels‑ und Sanktionspolitik gegenüber Drittstaaten wirkt direkt auf Bezugsquellen, Lieferzeiten und Kosten.</li>
+              <!-- /PESTEL_POLITICAL --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Wirtschaftlich</h4><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+              <ul class="zg-list" id="pestel-economic"><!-- PESTEL_ECONOMIC -->
+                <li>Nachfrage‑ und Preisvolatilität in Konsumgüterbranchen; Preisdruck bei Commodity‑Rohstoffen.</li>
+                <li>Energie‑, Transport‑ und Lagerkosten prägen Margen; Zinsniveau bindet Working Capital in Beständen.</li>
+              <!-- /PESTEL_ECONOMIC --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Sozial</h4>
+              <ul class="zg-list" id="pestel-social"><!-- PESTEL_SOCIAL --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+                <li>Trend zu naturbasierten, veganen und hautverträglichen Produkten; starke Nachfrage nach Transparenz (INCI/Allergene).</li>
+                <li>Zunehmende Präferenz für umweltfreundliche Haushaltsreiniger, Refill‑/Unverpackt‑Konzepte und private Labels.</li>
+              <!-- /PESTEL_SOCIAL --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Technologisch</h4>
+              <ul class="zg-list" id="pestel-tech"><!-- PESTEL_TECH --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+                <li>Digitalisierung von QMS, Rückverfolgbarkeit und Produktdaten (SDS/INCI/SCIP); E‑Commerce/CRM stützen Inside‑Sales.</li>
+                <li>Fortschritte bei Gewinnung/Veredelung pflanzlicher Öle, Destillation ätherischer Öle und Enzymtechnologien.</li>
+              <!-- /PESTEL_TECH --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Umwelt</h4>
+              <ul class="zg-list" id="pestel-environment"><!-- PESTEL_ECO --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+                <li>Stärkerer Fokus auf CO₂‑Reduktion, Life‑Cycle‑Assessments und biologisch abbaubare Rohstoffe entlang der Lieferkette.</li>
+                <li>Druck zur Verpackungsreduktion (Rezyklate, Bulk/Refill) und zu ressourcenschonender Logistik.</li>
+              <!-- /PESTEL_ECO --></ul>
+            </div>
+
+            <div class="zg-sec">
+              <h4>Rechtlich</h4>
+              <ul class="zg-list" id="pestel-legal"><!-- PESTEL_LEGAL --><!-- Nur <li>-Einträge; keine oaicite-/contentReference-Marker. -->
+<!-- Nur 1–2 Sätze, keine Zitationsmarker einfügen. -->
+                <li>EU‑Kosmetikverordnung, Lebensmittelrecht (HACCP) und pharmazeutische GxP‑Anforderungen erhöhen Compliance‑Komplexität.</li>
+                <li>Bio‑Zertifizierung/Label‑Regeln sowie neue Green‑Claims‑Vorgaben beeinflussen Marketing, Kennzeichnung und Dokumentation.</li>
+              <!-- /PESTEL_LEGAL --></ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <footer>
+  &copy; <span id="yr"></span> Martin Kiessling – Bewerbung
+</footer>
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+<!--
+HINWEIS (Template-Integration):
+- Inhalte ausschließlich zwischen den Platzhaltern pflegen:
+  • <!-- KICKER -->...<!-- /KICKER -->
+  • <!-- TITLE -->...<!-- /TITLE -->
+  • <!-- COMPANY_BRIEF -->...<!-- /COMPANY_BRIEF -->
+  • <!-- SWOT_DESC -->...<!-- /SWOT_DESC -->
+  • <!-- SWOT_STRENGTHS -->...<!-- /SWOT_STRENGTHS -->
+  • <!-- SWOT_WEAKNESSES -->...<!-- /SWOT_WEAKNESSES -->
+  • <!-- SWOT_OPPORTUNITIES -->...<!-- /SWOT_OPPORTUNITIES -->
+  • <!-- SWOT_THREATS -->...<!-- /SWOT_THREATS -->
+  • <!-- PESTEL_DESC -->...<!-- /PESTEL_DESC -->
+  • <!-- PESTEL_POLITICAL -->...<!-- /PESTEL_POLITICAL -->
+  • <!-- PESTEL_ECONOMIC -->...<!-- /PESTEL_ECONOMIC -->
+  • <!-- PESTEL_SOCIAL -->...<!-- /PESTEL_SOCIAL -->
+  • <!-- PESTEL_TECH -->...<!-- /PESTEL_TECH -->
+  • <!-- PESTEL_ECO -->...<!-- /PESTEL_ECO -->
+  • <!-- PESTEL_LEGAL -->...<!-- /PESTEL_LEGAL -->
+<!--
+- Keine Inline-Zitationsmarker (z. B. :contentReference[oaicite:...]) verwenden.
+- Quellen ggf. separat (außerhalb des HTMLs) dokumentieren.
+-->
+</html>
